@@ -1,0 +1,26 @@
+h1{
+    color: rgba(176, 6, 255, 0.815) !important;
+    /* font-size: 25px;
+    font-style: italic; */
+
+    font:25px italic;
+    font-variant: small-caps;
+    font-size: xx-large;
+    font-weight: bolder;
+
+    text-align: right;
+
+
+    padding: 100px;
+}
+
+p{
+    font-weight: bold;
+    font-style: inherit;
+
+}
+ body{
+   width: 1000px;
+   margin-top: 150px 300px;
+
+ }
