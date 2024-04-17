@@ -1,0 +1,30 @@
+body {
+    background-color: #faf2d1; 
+    background-image: url(cabecalhos_back.png);
+    background-repeat: repeat-y;
+    margin-left: 100px;
+    background-size: 90px;
+    font: normal 10pt Arial;
+
+}
+h1{
+    color: #96670a;}
+
+h2{
+    color: #96670a;}
+
+ hr{
+    border-top-style: dashed;
+    border-top-width: 3px;
+    color: #e3a607;
+ }   
+
+ div {
+    background-color: #e3a607 ;
+ }
+
+ #titulo {
+    color: white;
+ }
+
+
