@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+<style>
+    body{
+        width: 50%;
+        margin: auto;
+    }
+    table{
+        width: 500px;
+        text-align: center;
+    }
+    table, tr, td, th{
+        border: solid thin;
+        border-collapse: collapse;
+    }
+    thead,tfoot{
+        background-color: #036;
+        color: #fff
+    }
+    thead, th{
+        border-color: #fff;
+    }
+    td[colspan="5"]{
+        font-weight: bold;
+        font-size: 25px;
+        padding: 10px;
+    } 
+</style>
+<body>
+    <table>
+        <caption><h2>Tabela</h2></caption>
+        <thead>
+            <tr>
+                <th rowspan="2">MODELO</th>
+                <th rowspan="2">ALTURA</th>
+                <th rowspan="2">LARGURA</th>
+                <th colspan="2">ACESSÓRIOS</th>
+            </tr>
+            <tr>
+                <th>USB</th>
+                <th>WI-FI</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Xk-7</td>
+                <td>20</td>
+                <td>20</td>
+                <td><img src="sim.jpg" alt=""></td>
+                <td><img src="nao.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td>WZ8</td>
+                <td>10</td>
+                <td>15</td>
+                <td><img src="nao.jpg" alt=""></td>
+                <td><img src="nao.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td>X15</td>
+                <td>30</td>
+                <td>30</td>
+                <td><img src="sim.jpg" alt=""></td>
+                <td><img src="sim.jpg" alt=""></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Dados técnicos do equipamento</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
